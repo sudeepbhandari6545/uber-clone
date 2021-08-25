@@ -1,14 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { Provider } from 'react-redux'
+import HomeScreen from './screens/HomeScreen'
 import { Store } from './Store'
 
 export default function App() {
   return (
     <Provider store={Store}>
-      <View style={styles.container}>
-        <Text>Uber Clone </Text>
-      </View>
+      <HomeScreen />
     </Provider>
   )
 }
