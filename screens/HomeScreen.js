@@ -30,5 +30,3 @@ const styles = StyleSheet.create({
     color: 'blue',
   },
 })
-
-// https://links.papareact.com/gz5
